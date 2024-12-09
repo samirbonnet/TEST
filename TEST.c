@@ -96,7 +96,7 @@ static void showAvailableSeats(int theater_id, int movie_id) {
     int is_found = 0;
     for (int s = 0; s < SEATS_PER_MOVIE; s++) {
         if ((mask & (1 << s)) == 0) {
-            printf("%d ", s + 1);
+            printf("a%d ", s + 1);
             is_found = 1;
         }
     }
