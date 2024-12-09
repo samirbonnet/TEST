@@ -129,7 +129,7 @@ static void reserveSeat(int theater_id, int movie_id) {
     else 
     {
         theaters[theater_id].avail_seats[movie_id] = mask | (1 << seat_num);
-        printf("Seat %d booked.\n", seat_num + 1);
+        printf("Seat a%d booked.\n", seat_num + 1);
     }
 }
 
