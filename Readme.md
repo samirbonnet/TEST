@@ -1,4 +1,3 @@
-MyCProject
 
 Requirements - MS Visual Studio OR Linux with cmake and a C compiler
 
