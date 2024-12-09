@@ -12,7 +12,9 @@ Build Instructions (Windows, Linux, macOS)
 
 3 _ Build the project: cmake --build .
 
-This will create an executable called MyCProject. On Windows it might be MyCProject.exe.
+This will create an executable called MyCProject. On Windows it might be MyCProject.exe and can be imported as a CMake Project with MS Visual Studio.
+
+-> On linux the executable is launched with the command $ ./build/TEST after compilation
 
 Running the Program From the build directory: ./MyCProject
 
