@@ -22,4 +22,4 @@ Follow the menu instructions to view movies, theaters, available seats, and to b
 
 *Technical choice of the architecture was to demonstrate minimum memory usage via bitfields and static allocation and code readability
 
-*Program has been tested working on Visual studio 2022 and gcc 14.
+*Program has been tested working on Visual studio 2022 and debian with gcc 14.
